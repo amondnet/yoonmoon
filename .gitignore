@@ -1,0 +1,17 @@
+# 로컬 전용 Claude Code 설정만 제외 (settings.json은 커밋)
+.claude/settings.local.json
+
+# 윤문 작업 산출물
+_workspace/
+
+# macOS
+.DS_Store
+
+# 에디터
+.idea/
+.vscode/
+*.swp
+
+# 로그·임시
+*.log
+*.tmp

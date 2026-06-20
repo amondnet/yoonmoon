@@ -1,0 +1,21 @@
+{
+  "name": "yunmoon",
+  "owner": {
+    "name": "Minsu Lee",
+    "url": "https://github.com/amondnet"
+  },
+  "metadata": {
+    "description": "한글 AI 글을 사람처럼 윤문하고 AI 작성 여부를 판별하는 yunmoon 스킬 마켓플레이스",
+    "version": "0.1.0",
+    "pluginRoot": "."
+  },
+  "plugins": [
+    {
+      "name": "yunmoon",
+      "source": "./",
+      "description": "한글 AI 글 윤문(yunmoon)·탐지(yunmoon-detect) 스킬 묶음. 10대 AI 티 분류 + KatFishNet(ACL 2025) 근거.",
+      "version": "0.1.0",
+      "keywords": ["korean", "humanize", "ai-detector", "윤문", "번역투"]
+    }
+  ]
+}
