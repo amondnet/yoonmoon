@@ -1,0 +1,151 @@
+# 윤문(yunmoon) 연구·참고 자료 모음
+
+윤문의 학술·실무 토대를 정리한 큐레이션 문헌목록이다. 한국어 AI 텍스트 탐지, AI 글의 문체적 특징,
+번역투·post-editese, 한국어 글쓰기 규범·선행 도구를 다룬다.
+
+> **검증 방법.** 각 출처는 WebSearch로 발굴한 뒤 ACL Anthology · arXiv · KCI · DBpia · 국립국어원 등
+> 원 페이지를 실제로 열어 서지를 확인했고, 핵심 URL은 HTTP 상태(200)로 생존을 재확인했다.
+> 저자·연도·수치는 추측하지 않았다. confidence: **HIGH**(원문/서지 확인) · **MED**(2차 교차확인) · **LOW**(미확인).
+> 미확인 항목은 §8에 따로 모았다.
+
+> **스킬에 직접 반영된 근거 문서**(이 모음의 부분집합이자 taxonomy가 인용):
+> - [`skills/yunmoon/references/katfishnet-research.md`](../skills/yunmoon/references/katfishnet-research.md) — 쉼표·POS 다양성 (카테고리 4·9)
+> - [`skills/yunmoon/references/translationese-research.md`](../skills/yunmoon/references/translationese-research.md) — 번역투·보편소·post-editese (카테고리 1·2·6)
+
+## 목차
+1. [한국어 AI/LLM 텍스트 탐지](#1-한국어-aillm-텍스트-탐지)
+2. [AI 글의 문체적 특징·스타일로메트리](#2-ai-글의-문체적-특징스타일로메트리)
+3. [AI 텍스트 탐지 기법·워터마킹](#3-ai-텍스트-탐지-기법워터마킹)
+4. [번역투·번역 보편소·post-editese](#4-번역투번역-보편소post-editese)
+5. [한국어 글쓰기 규범·교정 가이드](#5-한국어-글쓰기-규범교정-가이드)
+6. [선행 도구 (prior art)](#6-선행-도구-prior-art)
+7. [한국어 NLP 툴링](#7-한국어-nlp-툴링)
+8. [윤문 시사점 · 미확인 항목](#8-윤문-시사점--미확인-항목)
+
+---
+
+## 1. 한국어 AI/LLM 텍스트 탐지
+
+| 자료 | 저자/연도/발표처 | 핵심 | 윤문 관련성 | conf |
+|---|---|---|---|---|
+| **KatFishNet** — Detecting LLM-Generated Korean Text through Linguistic Feature Analysis · [ACL](https://aclanthology.org/2025.acl-long.1030/) · [arXiv](https://arxiv.org/abs/2503.00032) · [code](https://github.com/Shinwoo-Park/katfishnet) | Park, Kim, Kim, Han / 2025 / ACL Main | 한국어 LLM 텍스트 탐지 **최초 벤치마크**(KatFish, 3장르). 신호 = 띄어쓰기·**POS n-gram 다양성**·**쉼표 사용**. 기존 최선 대비 +19.78% AUROC | 탐지·taxonomy의 1순위 근거 → `katfishnet-research.md` | HIGH |
+| **XDAC** — XAI-Driven Detection and Attribution of LLM-Generated News Comments in Korean · [ACL](https://aclanthology.org/2025.acl-long.1108/) · [code](https://github.com/airobotlab/XDAC) | Go, Kim, Oh, Kim (KAIST 등) / 2025 / ACL Main | 한국어 **댓글(단문)** 탐지·귀속. AI는 격식체·정형 표현, 사람은 이모지·줄바꿈·반복문자. 탐지 F1 98.5% | 단문/구어체 신호 — KatFishNet(문어체) 보완, detect 스킬에 "SNS/댓글 톤" 축 | HIGH |
+| **LREAD** — Rubric-Based Expert-Panel Study of Human Detection of LLM-Generated Korean Text · [arXiv 2601.19913](https://arxiv.org/abs/2601.19913) · [code](https://github.com/Shinwoo-Park/lread) | Park, Han (Yonsei) / 2026 preprint | 사람 판별: 직관 F1 0.60 → **루브릭 적용 시 0.90**(Fleiss κ 0.09→0.82). "표면적 매끄러움"이 사람을 오도. 루브릭 차원 = 자연스러운 한국어 표현·register 안정성·연결어/구두점 | detect 스킬의 **사람 검수 루브릭** 직접 근거. KatFishNet 후속(동일 연구진) | HIGH(서지)·preprint 주의 |
+| 인간의 글과 ChatGPT의 글에 대한 텍스트언어학적 접근 (TOPIK 쓰기) · [KCI](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003070390) | 조신(Zhao Xin) / 2024 / 언어와 정보 사회 51 | 사람 vs ChatGPT 작문을 상위·거시·미시구조·결속성/응집성으로 대조(질적) | 한국어 작문의 담화 구조 차이 → 윤문 리듬·결속 규칙 토대 | HIGH |
+| 챗GPT 이후 기계·인간 번역 문체 차이 변화 · [KCI](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003000086) | 이창수 / 2023 / 번역학연구 24(3) | Biber 67자질 PCA. **ChatGPT는 격식·문어체 편향**으로 뚜렷이 분기, 자가교정에도 문체 거의 불변 | "AI=격식·문어체 편향" 가설의 정량 근거 | HIGH |
+
+> **다국어 MGT 벤치마크에 한국어 없음** (각 논문 언어표 직접 확인): MULTITuDE([2310.13606](https://arxiv.org/abs/2310.13606), 11개 언어), M4GT-Bench([2402.11175](https://arxiv.org/abs/2402.11175)), M4([EACL](https://aclanthology.org/2024.eacl-long.83/)), MultiSocial([2406.12549](https://arxiv.org/abs/2406.12549)), RAID([2405.07940](https://arxiv.org/abs/2405.07940), 영어중심). → 한국어는 사실상 **KatFish가 유일 전용 리소스**. 이 공백이 윤문의 차별점.
+
+---
+
+## 2. AI 글의 문체적 특징·스타일로메트리
+
+| 자료 | 저자/연도/발표처 | 핵심 | 한국어 적용 주의 | conf |
+|---|---|---|---|---|
+| Delving into LLM-assisted writing — excess vocabulary · [arXiv 2406.07016](https://arxiv.org/abs/2406.07016) | Kobak 외 / 2024→Science Advances 2025 | PubMed 1,500만+ 분석. LLM 등장 후 style words(delve, intricate…) 급증. 2024년 초록 ~13.5% LLM 처리 추정 | 단어 리스트는 **영어 전용**. *방법론*(빈도 초과분)만 한국어로 차용 | HIGH |
+| Why Does ChatGPT "Delve" So Much? · [arXiv 2412.11385](https://arxiv.org/abs/2412.11385) | Juzek, Ward / 2024→COLING 2025 | 21개 과대표현 단어. 원인은 **RLHF 유력**(미확정) | "한국어 LLM도 선호 토큰 과사용" 가설의 근거 | HIGH |
+| Monitoring AI-Modified Content at Scale (peer reviews) · [arXiv 2403.07183](https://arxiv.org/abs/2403.07183) | Liang 외 / 2024 / ICML | 코퍼스 수준 분포이동으로 6.5–16.9% LLM 수정 추정. 라벨 불필요 | 코퍼스-레벨 탐지 아키텍처는 언어 무관 → 한국어 적용 가능 | HIGH |
+| Detection and Measurement of Syntactic Templates in Generated Text · [EMNLP 2024](https://aclanthology.org/2024.emnlp-main.368/) | Shaib 외 / 2024 | LLM은 POS 시퀀스 "템플릿" 과반복 → 통사적으로 더 균질 | "AI=반복 통사 템플릿" 신호. **단 KatFishNet은 한국어서 AI의 POS 다양성↑를 보고** → 부호는 KatFishNet 기준 | HIGH |
+| Playing with Words: Vocabulary & Lexical Richness of ChatGPT vs Humans · [arXiv 2308.07462](https://arxiv.org/abs/2308.07462) | Reviriego 외 / 2023 | AI는 어휘 다양성·풍부도 낮음 | TTR은 교착어라 **형태소/원형 토큰화 후** 계산 필수 | HIGH |
+| Stylometry recognizes human and LLM texts in short samples · [arXiv 2507.00838](https://arxiv.org/abs/2507.00838) | Przystalski 외 / 2025 | 트리 분류기가 ~10문장 단편서도 인간 vs GPT-4 최대 .98 | 짧은 입력서도 작동(문단 윤문에 유리). 한국어 태거 필요 | HIGH |
+| Stylometry can reveal AI authorship in Japanese · [PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335369) | Zaitsu 외 / 2025 | 일본어서 통합 스타일로메트리 ~99.8%. **Mecab + 의존파서** 사용 | 교착어 선례 — 한국어도 Mecab-ko/KoNLPy+파서 필요 | HIGH |
+| A Survey of AI-generated Text Forensic Systems · [arXiv 2403.01152](https://arxiv.org/abs/2403.01152) | Kumarage 외 / 2024 | 탐지/귀속/특성화 taxonomy 지도 | 어떤 특징이 있는지 개관 | HIGH |
+
+**비학술(분석글·벤더, 명시):** Reuters Institute "How AI-generated prose diverges"([link](https://reutersinstitute.politics.ox.ac.uk/news/how-ai-generated-prose-diverges-human-writing-and-why-it-matters), 2025), The Conversation "Too many em dashes…"(Kreuz, 2025) — tell 카탈로그이나 **단일 tell은 비결정적**·대부분 영어 전용. GPTZero "Perplexity and Burstiness"([link](https://gptzero.me/news/perplexity-and-burstiness-what-is-it/)) — burstiness 개념은 한국어 전이되나 신뢰성은 논쟁적.
+
+---
+
+## 3. AI 텍스트 탐지 기법·워터마킹
+
+| 기법 | 저자/연도 | 아이디어 | 한계(윤문 관점) | conf |
+|---|---|---|---|---|
+| **GLTR** · [ACL 2019](https://aclanthology.org/P19-3019/) | Gehrmann 외 / 2019 | 토큰별 LM 확률·순위 시각화(생성문=고확률 토큰 과다) | 샘플링·모델 발전에 약화. 언어별 캘리브레이션 필요 | HIGH |
+| **DetectGPT** · [arXiv 2301.11305](https://arxiv.org/abs/2301.11305) | Mitchell 외 / 2023 / ICML | log-prob 곡률. zero-shot, 분류기 불필요 | **화이트박스**(log-prob 접근), **패러프레이즈 시 붕괴**. 한국어 가능 스코어 LLM 필요 | HIGH |
+| **Binoculars** · [arXiv 2401.12070](https://arxiv.org/abs/2401.12070) | Hans 외 / 2024 / ICML | perplexity ÷ cross-perplexity. zero-shot, 학습 불필요 | 강한 수치는 영어 중심. 한국어·편집 텍스트 미검증 | HIGH |
+| **Ghostbuster** · [arXiv 2305.15047](https://arxiv.org/abs/2305.15047) · [NAACL](https://aclanthology.org/2024.naacl-long.95/) | Verma 외 / 2024 / NAACL | 약한 LM 확률특징 조합 + 분류기. 블랙박스 친화 | **비원어민 영어서 신뢰도 저하 명시** → 한국어 작성/번역 텍스트 위양성 위험 | HIGH |
+| **GPTZero** · [gptzero.me](https://gptzero.me/) | Tian, Cui / 2023 / 상용 | perplexity+burstiness+문체 결합 | 짧은 입력·비원어민서 **위양성** 다수 보도. 한국어 미검증 | HIGH(도구) |
+| **무하유 GPTKiller** · [copykiller.com/gptkiller](https://www.copykiller.com/gptkiller) | 무하유 / 2023 / 상용 | 국내 최초 한국어 학습 DetectGPT 표방. 문서/문단/문장 AI 작성률 | 윤문의 **적대적 레퍼런스**(회피 도구로 포지셔닝 금지). 정확도 미공개 | HIGH(도구) |
+| **Watermarking** · Kirchenbauer 외 [2301.10226](https://arxiv.org/abs/2301.10226)·[2306.04634](https://arxiv.org/abs/2306.04634), SynthID-Text(DeepMind, Nature 2024, [code](https://github.com/google-deepmind/synthid-text)) | 2023–24 | green-list 편향 등 생성기측 표식 | **생성기 협조 전제** → 임의 한국어 텍스트 탐지 부적합 | HIGH |
+| **Paraphrasing evades detectors (DIPPER)** · [arXiv 2303.13408](https://arxiv.org/abs/2303.13408) | Krishna 외 / 2023 / NeurIPS | 패러프레이징이 watermark·GPTZero·DetectGPT 회피 | **직접 중요**: 윤문=패러프레이즈형 변환이라 watermark/탐지 신호가 제거됨을 입증 | HIGH |
+
+---
+
+## 4. 번역투·번역 보편소·post-editese
+
+상세 정리·서지는 스킬 레퍼런스 [`translationese-research.md`](../skills/yunmoon/references/translationese-research.md) 참조.
+핵심만:
+
+- **한국어 번역투 유형론** — 김정우(2007, 정전), 김도훈(2009, 직역 대명사·무생물 '-들'·무생물 주어), 이영옥(2001)/최서영(2022, 무생물 주어+타동사), 오경순(2010)/최유숙(2023, 피동·이중피동), 전영철(2015, '-들' 의미론), 국립국어원 『새국어생활』 2012 번역 특집.
+- **번역 보편소** — Baker(1993; 1996: 단순화·명시화·규범화·평준화), Toury(1995: 규범화·간섭 법칙), Laviosa(1998/2002), Chesterman(2004: S-/T-universals — 윤문은 결과만 보므로 **T-universals**), Pym(2008, 위험회피 통합).
+- **post-editese / MT translationese** — Toral(2019, "악화된 번역투"), Vanmassenhove 외(2019/2021, 어휘 다양성 손실), Kong & Macken(2025, EN-ZH: 짧은 문장·역접 접속사 과다), Jalota 외(2023, 병렬데이터 없이 번역투 제거).
+- **한국어 MT 품질평가** — **Park & Padó(LREC-COLING 2024)**: fluency 차원에 "Unnaturalness" 오류 명시 코딩(가장 직접적 공학 근거), 최희경(2016), 안미영(2020), NIA/AI Hub MQM/SQM 자원.
+
+---
+
+## 5. 한국어 글쓰기 규범·교정 가이드
+
+**규범 자료 (국립국어원 / 문체부)**
+
+| 자료 | URL | 윤문 활용 | conf |
+|---|---|---|---|
+| 표준국어대사전 | https://stdict.korean.go.kr/ | 어휘 표준 표기/뜻 1차 검증 | HIGH |
+| 어문 규범 통합 포털(맞춤법·표준어·외래어·로마자) | https://kornorms.korean.go.kr/ | 맞춤법·띄어쓰기·외래어 표기 근거 조문 | MED |
+| 한글 맞춤법·표준어 규정 해설(2018) | https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=45&report_seq=944 | 경계 사례 유권해석 | HIGH |
+| 「공공언어 바로 쓰기(개정판)」 — **일본어 투 용어 50개** 포함 | https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=699 | 일본어투 치환 사전·간결화 규칙 | HIGH |
+| 「쉬운 공문서 쓰기 길잡이(2022)」 | https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=700 | 피동 줄이기·명사 나열 풀기 | HIGH |
+| 우리말 다듬기(말터) | https://malteo.korean.go.kr/ | 외래어→순화어 치환 | MED |
+| 온라인가나다 Q&A | https://www.korean.go.kr/front/onlineQna/onlineQnaList.do?mn_id=216 | 애매한 용법 공식 사례 | HIGH |
+| 『새국어생활』 2012 "번역과 국어" 특집 | https://www.korean.go.kr/nkview/nklife/2012_1/22_01.pdf | 번역투 유형 분류 학술 근거 | HIGH |
+
+**교정 가이드·서적**
+
+| 서적 | 저자 / 출판 | 영역 | conf |
+|---|---|---|---|
+| 『우리글 바로쓰기』(전5권) | 이오덕 / 한길사 | 일본어·서양 번역투 → 토박이말 | HIGH |
+| 『이수열 선생님의 우리말 바로 쓰기』 | 이수열 / 현암사 2014 | 항목별 치환표 | HIGH |
+| 『번역투의 유혹』 | 오경순 / 이학사 | **일본어투** 전문('~적', 'の'→'의', 이중피동) | HIGH |
+| 『번역의 탄생』 | 이희재 / 교양인 | **영어 번역투** 전문(무생물 주어·명사화·'~들'·수동) | HIGH |
+
+---
+
+## 6. 선행 도구 (prior art)
+
+| 도구 | URL | 무엇 | 윤문 관점 | conf |
+|---|---|---|---|---|
+| **epoko77-ai/im-not-ai** ★ | https://github.com/epoko77-ai/im-not-ai | 한국어 AI 글→사람 글 윤문(번역투·문체). Claude/Codex 스킬. 10대 A~J taxonomy + 심각도 S1~S3 + Fast/Strict | 가장 직접적 청사진(개념 참고). 윤문은 독자 taxonomy로 재작성 | HIGH |
+| 부산대 한국어 맞춤법/문법 검사기 | http://speller.cs.pusan.ac.kr/ | 국내 권위 맞춤법·문법 엔진 | "1차 정확성 레이어" 참고(문체·AI 티는 비대상) | HIGH(기능) |
+| 네이버 맞춤법 검사기 | search.naver.com 내 | 맞춤법·띄어쓰기(최대 500자) | 경량 교정 비교군 | HIGH(기능) |
+| 카피킬러/GPTKiller | https://www.copykiller.com/ | 표절 + AI 탐지 | 탐지 적대 레퍼런스 | HIGH |
+| 워드바이스 AI 휴머나이저 | https://wordvice.ai/tools/ai-humanizer | 47개 언어 패턴 치환, "탐지 통과 보장 못 함" 명시 | 휴머나이저 경쟁군 | HIGH |
+| py-hanspell | https://github.com/ssut/py-hanspell | 네이버 검사기 비공식 API 래퍼 | 외부 검사기 래핑의 취약성 반례 | HIGH |
+
+---
+
+## 7. 한국어 NLP 툴링
+
+- **KoNLPy / Mecab-ko** — https://konlpy.org/ — 형태소 분석·POS 태깅. KatFishNet식 특징(POS n-gram 다양성·형태소 단위 TTR·띄어쓰기 분석)을 한국어 텍스트에 계량할 때 표준 툴체인. conf HIGH.
+- **KLUE: Korean Language Understanding Evaluation** — [arXiv 2105.09680](https://arxiv.org/abs/2105.09680) — 8개 한국어 NLU 과제(NER·의존파싱 포함) + KLUE-BERT/RoBERTa. 통사 기반 스타일로메트리 특징에 활용. conf HIGH.
+
+---
+
+## 8. 윤문 시사점 · 미확인 항목
+
+### 시사점 — 한국어에 그대로 적용하면 안 되는 것 (영어 전용 tell)
+- **특정 영어 단어 리스트**("delve" 등)·**em-dash 남용**·**축약형/수동태 회피**·**영어식 hedging 어구**("often") → 한국어는 `-것 같다/-수 있다` 등 어미로 실현. 한국어 excess-vocabulary 리스트는 코퍼스로 **새로 산출**해야 함(방법론만 차용).
+- **TTR·POS n-gram** → 교착어라 **형태소/원형 토큰화 후** 계산 필수. 또 POS 다양성의 *방향*은 영어 연구(AI=균질)와 반대로 **KatFishNet 기준(한국어 AI=POS 다양성↑·쉼표 과용)** 을 채택.
+- **watermark 계열** → 생성기 협조 전제라 임의 한국어 텍스트엔 무관, 윤문(패러프레이즈)이 신호 제거.
+
+### taxonomy 보강 여지 (현재 gap)
+- **명사화·경동사**('활용을 하다' 류), **관계절 좌/우분지 중첩** — 전담 한국어 1차 문헌 미확보(Baker 명시화·전영철로 간접). 추가 조사 대상.
+- detect 스킬: **LREAD 루브릭**(자연스러운 표현·register 안정성·연결어/구두점) 차원을 명시적으로 반영 가능. XDAC의 **단문/SNS 신호**(이모지·반복문자) 축 추가 검토.
+
+### 미확인 (인용 전 추가 검증 필요)
+- 이근희(2005), 류현주(2009), 정영옥(2010), 최정아(2003) — 2차 인용만, 서지 미확인 (LOW)
+- Pym(2008) 페이지/DOI, Baker(1996) 보편소별 정확 페이지 — 1차 미열람 (MED)
+- 미래 날짜형 arXiv ID 다수(예: 2602.x, 2604.x, 2606.x) — 검색 요약 환각 가능성, **인용 금지**
+- HCLT/KIISE 내 한국어 AI 생성문 탐지 단독 논문 — 2차 언급만, 원 서지 미확인. koreascience.kr·DBpia 국문 키워드("생성형 AI 탐지") 직접 질의로 추가 발굴 권장
+- 국립국어원 서브도메인(kornorms/malteo/publang) 일부는 봇 fetch 거부 — URL은 교차확인되나 본문 검증은 브라우저 필요
+
+---
+
+*최종 갱신: 2026-06. 검증된 출처만 수록했으며, LLM 발전에 따라 주기적 갱신을 권장한다.*

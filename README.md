@@ -88,16 +88,19 @@ yunmoon/
 ├── .claude-plugin/
 │   ├── plugin.json          # 플러그인 매니페스트
 │   └── marketplace.json     # 마켓플레이스 등록
-└── skills/
-    ├── yunmoon/             # 윤문(고쳐쓰기) 스킬
-    │   ├── SKILL.md         # 오케스트레이터 (탐지·윤문·검증)
-    │   └── references/
-    │       ├── ai-tell-taxonomy.md    # 10대 카테고리 분류 (두 스킬 공유)
-    │       ├── rewriting-guide.md     # 윤문 원칙·순서·자체검증
-    │       ├── examples.md            # 장르별 before/after
-    │       └── katfishnet-research.md # 탐지 기준의 학술 근거(KatFishNet, ACL 2025)
-    └── yunmoon-detect/      # 탐지(AI 작성 여부 진단) 스킬
-        └── SKILL.md         # 신호 스캔 → AI 가능성·신뢰도·근거 (taxonomy 공유)
+├── skills/
+│   ├── yunmoon/             # 윤문(고쳐쓰기) 스킬
+│   │   ├── SKILL.md         # 오케스트레이터 (탐지·윤문·검증)
+│   │   └── references/
+│   │       ├── ai-tell-taxonomy.md       # 10대 카테고리 분류 (두 스킬 공유)
+│   │       ├── rewriting-guide.md        # 윤문 원칙·순서·자체검증
+│   │       ├── examples.md               # 장르별 before/after
+│   │       ├── katfishnet-research.md    # 근거: 쉼표·POS 다양성 (KatFishNet, ACL 2025)
+│   │       └── translationese-research.md # 근거: 번역투·보편소·post-editese
+│   └── yunmoon-detect/      # 탐지(AI 작성 여부 진단) 스킬
+│       └── SKILL.md         # 신호 스캔 → AI 가능성·신뢰도·근거 (taxonomy 공유)
+└── docs/
+    └── research.md          # 연구·참고 자료 큐레이션 모음 (검증된 출처 + 윤문 매핑)
 ```
 
 ## 참고 / 영감
@@ -106,10 +109,13 @@ yunmoon/
 (humanize-korean, MIT)의 구조와 접근에서 영감을 받았다. 윤문의 AI 티 분류·윤문 룰·문서는
 일반 언어학·번역학 상식에 기반해 **독자적으로 새로 작성**했다.
 
-AI 티 탐지 기준의 일부(쉼표 과용, POS 다양성 등)는 한국어 LLM 텍스트 탐지 연구
-**KatFishNet** (Park et al., ACL 2025, [논문](https://aclanthology.org/2025.acl-long.1030/) ·
-[코드](https://github.com/Shinwoo-Park/katfishnet))로 뒷받침된다. 자세한 매핑은
-[`skills/yunmoon/references/katfishnet-research.md`](skills/yunmoon/references/katfishnet-research.md) 참고.
+AI 티 탐지 기준은 한국어 LLM 텍스트 탐지 연구 **KatFishNet** (Park et al., ACL 2025,
+[논문](https://aclanthology.org/2025.acl-long.1030/) · [코드](https://github.com/Shinwoo-Park/katfishnet))과
+한국 번역학·번역 보편소·post-editese 연구로 뒷받침된다. 카테고리별 매핑은
+[`katfishnet-research.md`](skills/yunmoon/references/katfishnet-research.md) ·
+[`translationese-research.md`](skills/yunmoon/references/translationese-research.md)에 있고,
+탐지·스타일로메트리·규범·선행 도구를 아우르는 **연구·참고 자료 전체 모음**은
+[`docs/research.md`](docs/research.md)에 정리했다.
 
 ## 작성자
 
