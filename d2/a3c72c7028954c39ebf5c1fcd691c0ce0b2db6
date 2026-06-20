@@ -1,0 +1,23 @@
+skills/yunmoon/SKILL.md
+  s_3be06c0ae023fe::t_86eb3c4af5c413 8-12,14-15,17-21,23,25,29-30,32,35,37,45,47,51-56,58,60-61,63,66,72,74-78,80,88,90,94,96,99
+skills/yunmoon-detect/SKILL.md
+  s_3be06c0ae023fe::t_297324cd981717 8,11,13-14,16-18,20-22,25,27,29-30,35,37-39,41-43,45,47,57,62-77,79-80,86,88,91
+skills/yunmoon/references/examples.md
+  s_3be06c0ae023fe::t_cabcc1d4cde84e 3-19,22-38,42-56,60-73,77-78,80,84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "d2a3c72c7028954c39ebf5c1fcd691c0ce0b2db6",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "unknown"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
