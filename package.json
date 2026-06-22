@@ -11,12 +11,13 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\""
   },
   "devDependencies": {
     "@pleaseai/eslint-config": "^0.0.4",
     "eslint": "^10.0.3",
-    "eslint-plugin-format": "^2.0.1",
-    "oxfmt": "^0.55.0"
+    "prettier": "^3.8.4"
   }
 }
