@@ -109,13 +109,15 @@
 | 자료                                                          | URL                                                                                 | 윤문 활용                             | conf |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------- | ---- |
 | 표준국어대사전                                                | https://stdict.korean.go.kr/                                                        | 어휘 표준 표기/뜻 1차 검증            | HIGH |
-| 어문 규범 통합 포털(맞춤법·표준어·외래어·로마자)              | https://kornorms.korean.go.kr/                                                      | 맞춤법·띄어쓰기·외래어 표기 근거 조문 | MED  |
+| 어문 규범 통합 포털(맞춤법·표준어·외래어·로마자)              | https://korean.go.kr/kornorms/example/exampleList.do                                | 맞춤법·띄어쓰기·외래어 표기 근거 조문 | MED  |
 | 한글 맞춤법·표준어 규정 해설(2018)                            | https://www.korean.go.kr/front/reportData/reportDataView.do?mn_id=45&report_seq=944 | 경계 사례 유권해석                    | HIGH |
 | 「공공언어 바로 쓰기(개정판)」 — **일본어 투 용어 50개** 포함 | https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=699                   | 일본어투 치환 사전·간결화 규칙        | HIGH |
 | 「쉬운 공문서 쓰기 길잡이(2022)」                             | https://www.korean.go.kr/front/etcData/etcDataView.do?etc_seq=700                   | 피동 줄이기·명사 나열 풀기            | HIGH |
-| 우리말 다듬기(말터)                                           | https://malteo.korean.go.kr/                                                        | 외래어→순화어 치환                    | MED  |
+| 우리말 다듬기(말터)                                           | https://www.korean.go.kr/front/imprv/refineList.do                                  | 외래어→순화어 치환                    | MED  |
 | 온라인가나다 Q&A                                              | https://www.korean.go.kr/front/onlineQna/onlineQnaList.do?mn_id=216                 | 애매한 용법 공식 사례                 | HIGH |
 | 『새국어생활』 2012 "번역과 국어" 특집                        | https://www.korean.go.kr/nkview/nklife/2012_1/22_01.pdf                             | 번역투 유형 분류 학술 근거            | HIGH |
+
+> **URL 정정·브라우저 검증(2026-06).** 어문 규범 통합 포털·우리말 다듬기(말터)의 기존 서브도메인(`kornorms.korean.go.kr`·`malteo.korean.go.kr`)은 이 환경 DNS에서 해석되지 않아, 해석되는 경로형(`korean.go.kr/kornorms/…`·`www.korean.go.kr/front/imprv/refineList.do`)으로 정정했다. Orca 내장 브라우저로 본문(외래어 표기 용례·다듬은 말 18,309건)을 직접 확인 → 두 자료 **MED→HIGH**.
 
 **교정 가이드·서적**
 
@@ -168,7 +170,7 @@
 - Pym(2008) 페이지/DOI(Benjamins 403 차단), Baker(1996) 보편소별 정확 페이지 — 1차 미열람 (MED)
 - **미검증 arXiv ID** — 검색 요약에서 환각 가능성이 있는 ID는 원 페이지로 실재 확인 전 **인용 금지**. (초안에선 26xx를 "미래 날짜형"으로 분류했으나 현재 2026-06 기준 2602.x~2606.x는 이미 과거 — 판단 기준은 '날짜'가 아니라 '실재 검증 여부'다.) **LREAD `2601.19913`은 2026-06 검증 완료**(arXiv v1~v3 페이지·GitHub `Shinwoo-Park/lread` 실재 확인, 제목·수치·루브릭 배점 본문 대조) → 인용 가능. 로컬 아카이브: [`docs/papers/LREAD-2601.19913v3.pdf`](papers/LREAD-2601.19913v3.pdf) (Git LFS)
 - HCLT/KIISE 내 한국어 AI 생성문 탐지 논문 — **HCLT 2023 "생성형 AI가 생성한 문서를 탐지하는 판별기에 대한 연구" 발표 확인**(뉴스·블로그 교차, MED). 정확 서지(저자·페이지)는 koreascience.kr 추가 확인 필요
-- 국립국어원 서브도메인(kornorms/malteo/publang) 일부는 봇 fetch 거부 — URL은 교차확인되나 본문 검증은 브라우저 필요
+- 국립국어원 **어문 규범·우리말 다듬기 — 브라우저 검증 완료(2026-06)**: 기존 서브도메인(`kornorms`·`malteo.korean.go.kr`)이 이 환경 DNS에서 미해석 → 경로형으로 정정하고 Orca 내장 브라우저로 본문 직접 확인(§5 MED→HIGH).
 
 ---
 
