@@ -98,7 +98,9 @@ yunmoon/
 │   │       ├── katfishnet-research.md    # 근거: 쉼표·POS 다양성 (KatFishNet, ACL 2025)
 │   │       └── translationese-research.md # 근거: 번역투·보편소·post-editese
 │   └── yunmoon-detect/      # 탐지(AI 작성 여부 진단) 스킬
-│       └── SKILL.md         # 신호 스캔 → AI 가능성·신뢰도·근거 (taxonomy 공유)
+│       ├── SKILL.md         # 신호 스캔 → AI 가능성·신뢰도·근거 (taxonomy 공유)
+│       └── references/
+│           └── lread-rubric.md # 근거: 사람 판별 루브릭·fluency trap (LREAD, 2026)
 └── docs/
     └── research.md          # 연구·참고 자료 큐레이션 모음 (검증된 출처 + 윤문 매핑)
 ```

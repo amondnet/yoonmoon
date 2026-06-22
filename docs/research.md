@@ -137,7 +137,7 @@
 
 ### taxonomy 보강 여지 (현재 gap)
 - **명사화·경동사**('활용을 하다' 류), **관계절 좌/우분지 중첩** — 전담 한국어 1차 문헌 미확보(Baker 명시화·전영철로 간접). 추가 조사 대상.
-- detect 스킬: **LREAD 루브릭**(자연스러운 표현·register 안정성·연결어/구두점) 차원을 명시적으로 반영 가능. XDAC의 **단문/SNS 신호**(이모지·반복문자) 축 추가 검토.
+- detect 스킬: **LREAD 루브릭**(내용·조직·표현 3대 차원 + fluency trap)을 [`skills/yunmoon-detect/references/lread-rubric.md`](../skills/yunmoon-detect/references/lread-rubric.md)로 **반영 완료**. XDAC의 **단문/SNS 신호**(이모지·반복문자) 축 추가는 검토 대상.
 
 ### 미확인 (인용 전 추가 검증 필요)
 - 이근희(2005), 류현주(2009), 정영옥(2010), 최정아(2003) — 2차 인용만, 서지 미확인 (LOW)
