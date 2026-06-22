@@ -1,0 +1,21 @@
+docs/research.md
+  s_3be06c0ae023fe::t_c7bc47aefc9b0f 112,116
+  s_3be06c0ae023fe::t_b11e4b828db96f 173
+  s_3be06c0ae023fe::t_5cbe166d9d68c4 120-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "2eaee8d9f1c645228b50171ce59a65cf1e95012d",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
