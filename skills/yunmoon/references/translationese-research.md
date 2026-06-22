@@ -16,7 +16,7 @@
 ### 1.1 김정우 (2007) — 번역투 성격 규명을 위한 다차원적 접근 ★ 정전(定本)
 
 > 김정우. 「번역투의 성격 규명을 위한 다차원적 접근: 진단에서 처방까지」.
-> *번역학연구* 8권 1호(2007), pp. 61–82. 한국번역학회. (경남대학교)
+> _번역학연구_ 8권 1호(2007), pp. 61–82. 한국번역학회. (경남대학교)
 > DBpia: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE01600984 · **confidence: HIGH**
 
 - 한국 번역학에서 번역투 진단의 **다차원 틀을 정초한 표준 인용 문헌**. 후속 연구 대부분이 번역투 정의를 이 논문에서
@@ -26,8 +26,8 @@
 
 ### 1.2 김도훈 (2009) — 영한 번역시 발생하는 번역투에 대한 고찰
 
-> 김도훈(Kim Do-hun). 「영한 번역시 발생하는 번역투에 대한 고찰」 / *A Study on the "Translationese" in
-> English-Korean Translation*. *통역과 번역* 11권 2호(2009), pp. 3–19. (부산외국어대학교)
+> 김도훈(Kim Do-hun). 「영한 번역시 발생하는 번역투에 대한 고찰」 / _A Study on the "Translationese" in
+> English-Korean Translation_. _통역과 번역_ 11권 2호(2009), pp. 3–19. (부산외국어대학교)
 > KCI: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001410360 · **confidence: HIGH**
 
 - 영한 번역투를 **직역 대명사(그/그것/그들), 무생물 복수 '-들', 무생물 주어** 등 유형별로 명시 분류.
@@ -36,8 +36,8 @@
 
 ### 1.3 이영옥 (2001) — 무생물 주어 타동사구문의 영한번역
 
-> 이영옥(Young Ok Lee). 「무생물 주어 타동사구문의 영한번역」 / *English-Korean Translation for Nonhuman
-> Subject-Transitive Verb Construction*. *번역학연구* 2권 1호(2001), pp. 53–76. 한국번역학회.
+> 이영옥(Young Ok Lee). 「무생물 주어 타동사구문의 영한번역」 / _English-Korean Translation for Nonhuman
+> Subject-Transitive Verb Construction_. _번역학연구_ 2권 1호(2001), pp. 53–76. 한국번역학회.
 > KISS: https://kiss.kstudy.com/Detail/Ar?key=1806428 · **confidence: HIGH(서지) / 본문은 열람 제한**
 
 - **무생물 주어 + 타동사 구문**("이 연구는 ~을 보여준다" 류)의 영한 번역을 정면으로 다룬 고전 논문.
@@ -46,8 +46,8 @@
 ### 1.4 최서영 (2022) — 영어 무생물 주어 구문의 한·일 번역 양상
 
 > 최서영(Choi Seo-young). 「영어 무생물 주어 타동 구문과 자동 구문의 한국어, 일본어에서의 번역 양상」 /
-> *Translation Patterns of English Inanimate Subject Sentences in Korean and Japanese*.
-> *일본연구* 92호(2022), pp. 249–270.
+> _Translation Patterns of English Inanimate Subject Sentences in Korean and Japanese_.
+> _일본연구_ 92호(2022), pp. 249–270.
 > KCI: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002852164 · **confidence: HIGH**
 
 - 코퍼스 실증. **원문 구조가 그대로 유지되는 유형이 최빈**(타동 한국어 37.9%, 일본어 26.4%) — 무생물 주어가
@@ -56,8 +56,8 @@
 
 ### 1.5 오경순 (2010) — 일한 번역의 번역투: 수동표현 중심
 
-> 오경순(Oh Kyung-soon). 「일한 번역의 번역투 고찰 ―수동표현 번역문을 중심으로―」 / *A Study of Translationese
-> of Japanese into Korean Translation—Focused on the Passive Expression*. *일본근대학연구* 29호(2010), pp. 163–182.
+> 오경순(Oh Kyung-soon). 「일한 번역의 번역투 고찰 ―수동표현 번역문을 중심으로―」 / _A Study of Translationese
+> of Japanese into Korean Translation—Focused on the Passive Expression_. _일본근대학연구_ 29호(2010), pp. 163–182.
 > KCI: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001473234 · **confidence: HIGH**
 
 - **피동/수동표현 남용** 번역투 전담 연구. 한·일 구조 유사성을 가정한 기계적 1:1 대응이 피동 오용을 유발한다고 분석(일본어 영향 경로).
@@ -66,8 +66,8 @@
 ### 1.6 최유숙 (2023) — 한국어 번역 투의 기능과 의미 고찰
 
 > 최유숙(Choi Yu-sook). 「한국어 번역 투의 기능과 의미 고찰 ―글쓰기 논저에서의 번역 투 검토를 중심으로―」 /
-> *On the Function and Meaning of Korean Translationese: Translationese in Thesis Writing*.
-> *어문론집* 93호(2023), pp. 395–421. DOI 10.15565/jll.2023.3.93.395. (중앙대학교)
+> _On the Function and Meaning of Korean Translationese: Translationese in Thesis Writing_.
+> _어문론집_ 93호(2023), pp. 395–421. DOI 10.15565/jll.2023.3.93.395. (중앙대학교)
 > KCI: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002949941 · **confidence: HIGH**
 
 - 학술 글쓰기 번역투 6개 범주: **이중피동, 피동·사동, 영어 전치사, 일본어 조사·후치사, 영어 시제**.
@@ -77,8 +77,8 @@
 
 ### 1.7 김정우 (2010) — 번역투 문제 연구의 동향과 과제 (survey)
 
-> 김정우(Kim Jeongwoo). 「번역투 문제 연구의 동향과 과제」 / *The Current Research and its Prospect on
-> Translationese Problems*. *통번역교육연구* 8권 2호(2010), pp. 85–106.
+> 김정우(Kim Jeongwoo). 「번역투 문제 연구의 동향과 과제」 / _The Current Research and its Prospect on
+> Translationese Problems_. _통번역교육연구_ 8권 2호(2010), pp. 85–106.
 > KCI: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001508621 · **confidence: HIGH**
 
 - 번역투 연구 **리뷰/서베이 논문**. 다루는 범주: 복수성 전이('-들'), 시점 이동(viewpoint), 연결어미, 의성·의태어. 대조문법 기반 분석 권고.
@@ -86,8 +86,8 @@
 
 ### 1.8 전영철 (2015) — 한국어 집합 명사와 복수 표지 '들' (순수 국어학)
 
-> 전영철(Jeon Young-chul). 「한국어 집합 명사와 복수 표지 '들'」 / *Korean Collective Nouns and the Plural
-> Marker 'tul'*. *어학연구* 51권 3호(2015), pp. 793–814. 서울대 언어교육원.
+> 전영철(Jeon Young-chul). 「한국어 집합 명사와 복수 표지 '들'」 / _Korean Collective Nouns and the Plural
+> Marker 'tul'_. _어학연구_ 51권 3호(2015), pp. 793–814. 서울대 언어교육원.
 > DBpia: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06578110 · 원문 PDF: https://s-space.snu.ac.kr/handle/10371/95145 · **confidence: HIGH**
 
 - 의미론 관점에서 복수 표지 '-들'의 분포·기능 분석. 무생물·count 명사에 '-들'을 붙이는 번역투를 판정할 때
@@ -97,6 +97,7 @@
 ### 1.9 국립국어원 『새국어생활』 22권 1호(2012) 특집 "번역과 국어"
 
 > 국립국어원 간행 교양지(학술지 아님 — 인용 시 성격 유의). 2012 봄, 제22권 제1호.
+
 - **김정우(경남대)** 「현대 국어 번역문의 실태」 — 번역 보편소(단순화·명시화·규범화·상호합치) 틀로 번역문 특징 설명.
   명시화 결과로 수식어/접속어/양화사 증가, 대명사 중의성 해소. PDF: https://www.korean.go.kr/nkview/nklife/2012_1/22_0104.pdf
 - **김순영(동국대)** 「영한 번역에 나타난 번역투 문장」 — 직역 시 영어 어휘·통사가 목표텍스트에 '흔적'으로 남는 과정.
@@ -110,8 +111,8 @@
 
 ### 2.1 Mona Baker (1993) — Corpus Linguistics and Translation Studies
 
-> Baker, Mona. "Corpus Linguistics and Translation Studies: Implications and Applications." In *Text and
-> Technology: In Honour of John Sinclair*, eds. Baker, Francis & Tognini-Bonelli, pp. 233–250.
+> Baker, Mona. "Corpus Linguistics and Translation Studies: Implications and Applications." In _Text and
+> Technology: In Honour of John Sinclair_, eds. Baker, Francis & Tognini-Bonelli, pp. 233–250.
 > Amsterdam/Philadelphia: John Benjamins, 1993.
 > Benjamins: https://benjamins.com/catalog/z.64.15bak · **confidence: HIGH**
 
@@ -121,13 +122,13 @@
 
 ### 2.2 Mona Baker (1996) — Corpus-based Translation Studies: The Challenges that Lie Ahead ★ 4대 보편소
 
-> Baker, Mona. "Corpus-based Translation Studies: The Challenges that Lie Ahead." In *Terminology, LSP and
-> Translation*, ed. Harold Somers, pp. 175–186. Amsterdam/Philadelphia: John Benjamins (BTL 18), 1996.
+> Baker, Mona. "Corpus-based Translation Studies: The Challenges that Lie Ahead." In _Terminology, LSP and
+> Translation_, ed. Harold Somers, pp. 175–186. Amsterdam/Philadelphia: John Benjamins (BTL 18), 1996.
 > Benjamins: https://benjamins.com/catalog/btl.18.17bak · **confidence: HIGH** (페이지번호 일부 MED)
 
 - **4대 번역 보편소를 정의한 정전**:
   - **단순화(Simplification)** — 어휘·통사를 단순화하는 경향(어휘밀도·어휘다양성·TTR 저하, 문장 단순화).
-  - **명시화(Explicitation)** — 함축을 풀어 명시하는 경향(접속사·결속표지·정보 추가). *대명사 추가·접속어 증가의 이론적 출처.*
+  - **명시화(Explicitation)** — 함축을 풀어 명시하는 경향(접속사·결속표지·정보 추가). _대명사 추가·접속어 증가의 이론적 출처._
   - **규범화/보수화(Normalisation/Conservatism)** — 목표어의 전형적 관습으로 수렴(때로 과장).
   - **평준화(Levelling-out)** — 개별 번역문이 연속체 중앙으로 수렴(덜 극단적).
 - **윤문 매핑**: 카테고리 1(번역투 일반), 카테고리 4(명시화→접속어 남발), 카테고리 6(명사화). AI 글의 "번역투+과설명"
@@ -135,7 +136,7 @@
 
 ### 2.3 Gideon Toury (1995) — Descriptive Translation Studies and Beyond ★ 2대 법칙
 
-> Toury, Gideon. *Descriptive Translation Studies — and Beyond*. Amsterdam/Philadelphia: John Benjamins
+> Toury, Gideon. _Descriptive Translation Studies — and Beyond_. Amsterdam/Philadelphia: John Benjamins
 > (BTL 4), 1995. viii+311pp. (개정판 2012, BTL 100.)
 > Internet Archive: https://archive.org/details/descriptivetrans0000tour · TAU: https://www.tau.ac.il/~tarbut/Toury/works/dts.html · **confidence: HIGH**
 
@@ -149,25 +150,25 @@
 ### 2.4 Sara Laviosa (1998) — 단순화 실증 / (2002) 종합 단행본
 
 > Laviosa, Sara. "Core Patterns of Lexical Use in a Comparable Corpus of English Narrative Prose."
-> *Meta: Translators' Journal* 43(4): 557–570, 1998. · **confidence: HIGH**
-> Laviosa, Sara. *Corpus-based Translation Studies: Theory, Findings, Applications*. Rodopi, 2002. · **confidence: HIGH**
+> _Meta: Translators' Journal_ 43(4): 557–570, 1998. · **confidence: HIGH**
+> Laviosa, Sara. _Corpus-based Translation Studies: Theory, Findings, Applications_. Rodopi, 2002. · **confidence: HIGH**
 
 - 번역 영어가 비번역 영어보다 **어휘밀도↓, 고빈도어 비중·반복↑, 어휘 다양성↓** — 단순화의 대표 실증.
 - **윤문 매핑**: 카테고리 1·7·9. 번역(/AI)문의 어휘 빈약·반복 성향의 계량 근거.
 
 ### 2.5 Andrew Chesterman (2004) — S-universals vs T-universals
 
-> Chesterman, Andrew. "Beyond the Particular." In *Translation Universals: Do They Exist?*, eds. Mauranen &
+> Chesterman, Andrew. "Beyond the Particular." In _Translation Universals: Do They Exist?_, eds. Mauranen &
 > Kujamäki, pp. 33–49. John Benjamins (BTL 48), 2004.
 > Benjamins: https://benjamins.com/catalog/btl.48.04che · **confidence: HIGH**
 
-- **S-universals** = 번역문과 *원문* 간 보편 차이(예: 명시화·간섭). **T-universals** = 번역문과 *비번역 대조 텍스트* 간
+- **S-universals** = 번역문과 _원문_ 간 보편 차이(예: 명시화·간섭). **T-universals** = 번역문과 _비번역 대조 텍스트_ 간
   보편 차이(예: 단순화·규범화 = Baker의 산물 지향 보편소)(Chesterman 2004: 39).
 - **윤문 매핑**: 윤문은 원문 없이 결과 텍스트만 본다 → **T-universals(단순화·규범화)** 관점에 해당. 탐지 프레임의 이론적 위치 규정.
 
 ### 2.6 Anthony Pym (2008) — On Toury's Laws (비판)
 
-> Pym, Anthony. "On Toury's Laws of How Translators Translate." In *Beyond Descriptive Translation Studies*,
+> Pym, Anthony. "On Toury's Laws of How Translators Translate." In _Beyond Descriptive Translation Studies_,
 > eds. Pym, Shlesinger & Simeoni, pp. 311–328(추정). John Benjamins (BTL 75), 2008.
 > Benjamins: https://benjamins.com/catalog/btl.75.24pym · **confidence: MED** (페이지·DOI는 미확정)
 
@@ -180,8 +181,8 @@
 
 ### 3.1 Antonio Toral (2019) — Post-editese: an Exacerbated Translationese ★
 
-> Toral, Antonio. "Post-editese: an Exacerbated Translationese." *Proceedings of Machine Translation
-> Summit XVII: Research Track* (EAMT), Dublin, 2019, pp. 273–281.
+> Toral, Antonio. "Post-editese: an Exacerbated Translationese." _Proceedings of Machine Translation
+> Summit XVII: Research Track_ (EAMT), Dublin, 2019, pp. 273–281.
 > ACL: https://aclanthology.org/W19-6627/ · arXiv: https://arxiv.org/abs/1907.00900 · **confidence: HIGH**
 
 - "post-editese" 용어의 **정초 논문**. 포스트에디팅된 MT(PEMT)는 인간 번역보다 **더 단순하고(simpler), 더 규범화되며
@@ -190,7 +191,7 @@
 
 ### 3.2 Vanmassenhove, Shterionov & Way (2019) — Lost in Translation
 
-> "Lost in Translation: Loss and Decay of Linguistic Richness in Machine Translation." *MT Summit XVII*,
+> "Lost in Translation: Loss and Decay of Linguistic Richness in Machine Translation." _MT Summit XVII_,
 > Dublin, 2019, pp. 222–232. ACL: https://aclanthology.org/W19-6622/ · arXiv: https://arxiv.org/abs/1906.12068 · **confidence: HIGH**
 
 - MT(SMT·NMT)는 인간 번역의 **어휘 다양성을 재현하지 못함** — "MT-ese" 규범화의 핵심 기제.
@@ -199,14 +200,14 @@
 ### 3.3 Vanmassenhove, Shterionov & Gwilliam (2021) — Machine Translationese
 
 > "Machine Translationese: Effects of Algorithmic Bias on Linguistic Complexity in Machine Translation."
-> *EACL 2021*, pp. 2203–2213. DOI 10.18653/v1/2021.eacl-main.188 · ACL: https://aclanthology.org/2021.eacl-main.188/ · arXiv: https://arxiv.org/abs/2102.00287 · **confidence: HIGH**
+> _EACL 2021_, pp. 2203–2213. DOI 10.18653/v1/2021.eacl-main.188 · ACL: https://aclanthology.org/2021.eacl-main.188/ · arXiv: https://arxiv.org/abs/2102.00287 · **confidence: HIGH**
 
 - 알고리즘 편향이 빈출 패턴을 증폭하고 희귀 패턴을 탈락시켜 **어휘·형태·통사 다양성이 인위적으로 빈약해진** 언어 산출.
 - **윤문 매핑**: 카테고리 9(리듬 균일성)·7. KatFishNet의 POS 다양성 저하 발견과 직접 호응.
 
 ### 3.4 Zhang & Toral (2019) — The Effect of Translationese in MT Test Sets
 
-> "The Effect of Translationese in Machine Translation Test Sets." *WMT19*, Florence, 2019, pp. 73–81.
+> "The Effect of Translationese in Machine Translation Test Sets." _WMT19_, Florence, 2019, pp. 73–81.
 > ACL: https://aclanthology.org/W19-5208/ · arXiv: https://arxiv.org/abs/1906.08069 · **confidence: HIGH**
 
 - 출발어 측 번역투가 **인간 평가 점수를 부풀리고** 시스템 순위를 바꿈. 자연스러움 평가의 방법론적 주의점.
@@ -214,7 +215,7 @@
 
 ### 3.5 Kong & Macken (2025) — Decoding Machine Translationese (LLMs vs NMT, EN-ZH)
 
-> "Decoding Machine Translationese in English-Chinese News: LLMs vs. NMTs." *MT Summit XX* (EAMT), Geneva,
+> "Decoding Machine Translationese in English-Chinese News: LLMs vs. NMTs." _MT Summit XX_ (EAMT), Geneva,
 > 2025, pp. 99–112. ACL: https://aclanthology.org/2025.mtsummit-1.8/ · arXiv: https://arxiv.org/abs/2506.22050 · **confidence: HIGH**
 
 - 최신: MTese는 NMT·LLM 모두에 잔존. MT 산출은 **문장이 짧고 역접 접속사가 많음**. LLM은 NMT보다 어휘 다양성↑(여전히 원어와 구별됨).
@@ -222,14 +223,14 @@
 
 ### 3.6 Jalota et al. (2023) — Translating away Translationese without Parallel Data
 
-> "Translating away Translationese without Parallel Data." *EMNLP 2023* (Main), Singapore, pp. 7086–7100.
+> "Translating away Translationese without Parallel Data." _EMNLP 2023_ (Main), Singapore, pp. 7086–7100.
 > ACL: https://aclanthology.org/2023.emnlp-main.438/ · arXiv: https://arxiv.org/abs/2310.18830 · **confidence: HIGH**
 
 - 병렬 데이터 없이 **번역투 스타일을 의미 보존하며 제거**하는 자기지도 방법. 번역투를 제거 가능한 스타일 신호로 조작화.
 - **윤문 매핑**: 윤문 과제 자체(번역투 제거)의 방법론적 선례.
 
 > 참고(Korean parity confound): Toral, Castilho, Hu & Way (2018) "Attaining the Unattainable? Reassessing
-> Claims of Human Parity in NMT" *WMT18* pp. 113–123, https://aclanthology.org/W18-6312/ — 번역투를 통제하면
+> Claims of Human Parity in NMT" _WMT18_ pp. 113–123, https://aclanthology.org/W18-6312/ — 번역투를 통제하면
 > "human parity" 주장이 무너짐. confidence: HIGH(서지)/페이지 MED.
 
 ---
@@ -239,7 +240,7 @@
 ### 4.1 Park & Padó (2024) — Multi-Dimensional MT Evaluation for Korean ★
 
 > Park, Dojun & Padó, Sebastian. "Multi-Dimensional Machine Translation Evaluation: Model Evaluation and
-> Resource for Korean." *LREC-COLING 2024*. ACL: https://aclanthology.org/2024.lrec-main.1024/ ·
+> Resource for Korean." _LREC-COLING 2024_. ACL: https://aclanthology.org/2024.lrec-main.1024/ ·
 > arXiv: https://arxiv.org/abs/2403.12666 · **confidence: HIGH**
 
 - 영-한 1,200문장 MQM 벤치마크. **fluency 차원에 "Unnaturalness: Words that are awkward or unnatural"** 을
@@ -256,7 +257,7 @@
 
 ### 4.3 최희경 (2016) — 번역투 다시 보기: 코퍼스 분석
 
-> 최희경(Choi Hee-kyung). 「번역투 다시 보기: 코퍼스 분석 사례를 토대로」. *번역학연구* 17권 1호(2016), pp. 147–169.
+> 최희경(Choi Hee-kyung). 「번역투 다시 보기: 코퍼스 분석 사례를 토대로」. _번역학연구_ 17권 1호(2016), pp. 147–169.
 > 한국번역학회. KCI: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002094440 · **confidence: HIGH**
 
 - 번역 vs 비번역 한국어 코퍼스(41,578 vs 75,793 어절)를 정규화 빈도로 대조해 번역투 marker를 식별. 한국어 번역투 코퍼스 계량 사례.
@@ -264,7 +265,7 @@
 
 ### 4.4 최희경 (2016b) — 한영 문학 번역 문체 (명시화·연어묶음)
 
-> 최희경. 「한영 문학 번역 문체 연구: 코퍼스 기반 분석을 중심으로」. *번역학연구* 17권 3호(2016), pp. 193–216.
+> 최희경. 「한영 문학 번역 문체 연구: 코퍼스 기반 분석을 중심으로」. _번역학연구_ 17권 3호(2016), pp. 193–216.
 > DOI 10.15749/jts.2016.17.3.008. KCI: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002152948 · **confidence: HIGH**
 
 - 번역 텍스트가 비번역보다 **명시화(explicitation)·연어묶음(lexical bundles)** 이 많음을 수치화 — 번역체 계량 지표.
@@ -273,7 +274,7 @@
 ### 4.5 안미영 (2020) — EN-KO MT 문제점과 포스트에디팅 방향
 
 > 안미영(Ahn Mi-young, 제주한라대). 「한국어와 영어의 언어적 차이에 따른 기계번역의 문제점과 그에 대한 포스트
-> 에디팅 방향 제안」. *영어영문학(The Mirae Journal of English Language and Literature)* 25권 1호(2020), pp. 103–130.
+> 에디팅 방향 제안」. _영어영문학(The Mirae Journal of English Language and Literature)_ 25권 1호(2020), pp. 103–130.
 > KCI: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002565934 · **confidence: HIGH**
 
 - Google/Papago 한국어 출력에서 **무생물 주어 구문·피동·인과/행위 표현**을 분석. EN-KO 통사·인지 거리가 클수록 MTPE 생산성↓.
@@ -289,7 +290,7 @@
 ### 4.7 이선우·이상빈 (2021) — 인간번역 vs MTPE 품질 비교
 
 > 이선우·이상빈(한국외대). 「학부번역전공자의 인간번역과 기계번역 포스트에디팅 품질 비교」.
-> *T&I Review(통번역학연구)* 11권 2호(2021). DOI 10.22962/tnirvw.2021.11.2.005 · **confidence: HIGH**
+> _T&I Review(통번역학연구)_ 11권 2호(2021). DOI 10.22962/tnirvw.2021.11.2.005 · **confidence: HIGH**
 
 - 한→영에서 인간번역 vs MTPE를 5점 척도로 비교. PE본이 더 우수, 인간번역에 어휘·문법 오류 多. (번역투보다 어휘·문법 오류 중심)
 - **윤문 매핑**: 간접 — 한국어 화자의 MTPE 품질평가 실증.
@@ -308,16 +309,16 @@
 
 ## 5. 한국어 번역투 핵심 8유형 요약 (윤문 카테고리 매핑)
 
-| # | 번역투 유형 | 예시 (티 → 자연) | 윤문 카테고리 | 주요 근거 | conf |
-|---|---|---|---|---|---|
-| 1 | 무생물 주어 + 타동사 | 이 연구는 ~을 보여준다 → 이 연구로 ~을 알 수 있다 | 1 | 이영옥(2001), 최서영(2022), 안미영(2020) | HIGH |
-| 2 | 피동·이중피동 남용 | 되어진다/보여진다 → 된다/보인다 | 2 | 오경순(2010), 최유숙(2023) | HIGH |
-| 3 | 직역 대명사 그/그것/그들 | 그것은 중요하다 → (생략/지시 대상 명시) | 1 | 김도훈(2009) | HIGH |
-| 4 | 무생물 복수 '-들' | 정보들·문제들 → 정보·문제 | 1 | 김도훈(2009), 전영철(2015 근거), 김정우(2010) | HIGH |
-| 5 | 영어/일본어식 조사 결합 | -에서의/~에 대해/~을 통해 → 조사 단순화 | 1 | 최유숙(2023), 김정우(2007) | HIGH |
-| 6 | 종결·시제·서법 calque | 영어 시제 직역 | 1 | 최유숙(2023) | HIGH |
-| 7 | 명시화 과잉(접속어·수식 증가) | 불필요한 접속·수식 추가 | 4·7 | Baker(1996), 최희경(2016b) | HIGH |
-| 8 | 명사화·경동사 | 활용을 하다 → 활용하다 | 6 | (직접 전담 한국어 논문 gap; Baker 명시화로 간접) | MED |
+| #   | 번역투 유형                   | 예시 (티 → 자연)                                  | 윤문 카테고리 | 주요 근거                                        | conf |
+| --- | ----------------------------- | ------------------------------------------------- | ------------- | ------------------------------------------------ | ---- |
+| 1   | 무생물 주어 + 타동사          | 이 연구는 ~을 보여준다 → 이 연구로 ~을 알 수 있다 | 1             | 이영옥(2001), 최서영(2022), 안미영(2020)         | HIGH |
+| 2   | 피동·이중피동 남용            | 되어진다/보여진다 → 된다/보인다                   | 2             | 오경순(2010), 최유숙(2023)                       | HIGH |
+| 3   | 직역 대명사 그/그것/그들      | 그것은 중요하다 → (생략/지시 대상 명시)           | 1             | 김도훈(2009)                                     | HIGH |
+| 4   | 무생물 복수 '-들'             | 정보들·문제들 → 정보·문제                         | 1             | 김도훈(2009), 전영철(2015 근거), 김정우(2010)    | HIGH |
+| 5   | 영어/일본어식 조사 결합       | -에서의/~에 대해/~을 통해 → 조사 단순화           | 1             | 최유숙(2023), 김정우(2007)                       | HIGH |
+| 6   | 종결·시제·서법 calque         | 영어 시제 직역                                    | 1             | 최유숙(2023)                                     | HIGH |
+| 7   | 명시화 과잉(접속어·수식 증가) | 불필요한 접속·수식 추가                           | 4·7           | Baker(1996), 최희경(2016b)                       | HIGH |
+| 8   | 명사화·경동사                 | 활용을 하다 → 활용하다                            | 6             | (직접 전담 한국어 논문 gap; Baker 명시화로 간접) | MED  |
 
 > **이론 상위 매핑**: 위 1~8은 Toury(1995) **간섭 법칙**(영어/일본어 잔재)과 Baker(1996) **단순화·명시화·규범화**의
 > 한국어 발현이며, Toral(2019)·Vanmassenhove(2021)는 이것이 MT/AI 산출물에서 **악화**됨을 보였다.
@@ -327,13 +328,13 @@
 
 ## 6. 서지 미확인 (Unverified — 인용 전 추가 검증 필요)
 
-- **이근희 (2005)** — 단행본 『이근희의 번역 산책: 번역투에서 번역의 전략까지』(한국문화사) 및 *번역학연구* 게재 논문 다수
+- **이근희 (2005)** — 단행본 『이근희의 번역 산책: 번역투에서 번역의 전략까지』(한국문화사) 및 _번역학연구_ 게재 논문 다수
   인용됨. 1차 페이지 미열람. confidence: **LOW**.
 - **류현주 (2009), 정영옥 (2010), 최정아 (2003)** — 번역투 정의/단어수 증감 관련 2차 인용만 확인. 서지 미확인. **LOW**.
 - **Pym (2008)** 페이지 범위(311–328)·DOI(10.1075/btl.75.24pym) — 단행본 존재는 확인, 페이지+DOI 동시 표시 페이지 미열람. **MED/LOW**.
 - **Baker (1996)** 각 보편소별 정확한 페이지(예: 단순화 p.176, 명시화 p.180, 규범화 p.183) — 2차/검색 스니펫 기반, 1차 미열람. **MED**.
 - **Levelling-out** Baker 원문 verbatim 인용문 — 표준 패러프레이즈만 확보, 원문 문장 미열람. **MED**.
-- **백지연·구혜경 (2022)** 「한-영 기계번역 결과물의 오류 유형 및 원인 분석」(*문화기술의 융합* 8(4):199–204) — KCI 서지 확인(HIGH)
+- **백지연·구혜경 (2022)** 「한-영 기계번역 결과물의 오류 유형 및 원인 분석」(_문화기술의 융합_ 8(4):199–204) — KCI 서지 확인(HIGH)
   되나 오류 유형이 형태·구문 중심이고 **"번역투" 범주 미포함** → 본 주제와 직접 부합 안 해 본문 제외.
 - **명사화·경동사('활용을 하다' 류) 전담 한국어 논문**, **관계절 좌/우분지 중첩 전담 논문** — 현재 typology의 **빈 칸(gap)**.
   Baker 명시화·전영철 류로 간접 커버되나 전담 1차 문헌 추가 조사 필요.

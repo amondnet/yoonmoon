@@ -8,7 +8,7 @@
 
 > **KatFishNet: Detecting LLM-Generated Korean Text through Linguistic Feature Analysis**
 > Shinwoo Park, Shubin Kim, Do-Kyung Kim, Yo-Sub Han.
-> *Proceedings of the 63rd Annual Meeting of the ACL (Volume 1: Long Papers)*, 2025, pp. 21189–21222.
+> _Proceedings of the 63rd Annual Meeting of the ACL (Volume 1: Long Papers)_, 2025, pp. 21189–21222.
 > ACL Anthology: https://aclanthology.org/2025.acl-long.1030/ · DOI: 10.18653/v1/2025.acl-long.1030
 > 코드·데이터(KatFish 벤치마크): https://github.com/Shinwoo-Park/katfishnet
 
@@ -19,6 +19,7 @@
 ## 세 가지 언어 특징군
 
 ### 1) 띄어쓰기 패턴 (Word Spacing)
+
 - **의존명사(BN)·보조용언(VX)** 주변 띄어쓰기 분포를 분석. (MMN-BN Space Ratio, BN Space Ratio)
 - LLM 텍스트는 표준 띄어쓰기 규칙을 더 기계적·균일하게 따르는 경향. 사람 글은 변이가 크다.
 - **윤문에서의 활용**: 주로 *탐지 신호*다. 윤문은 띄어쓰기를 함부로 바꾸지 않는다(맞춤법 교정은 범위 밖).
@@ -26,11 +27,13 @@
   → **카테고리 6(형식명사·명사화)** 신호로 본다.
 
 ### 2) POS n-gram 다양성 (POS N-gram Diversity)
+
 - 품사 n-gram(uni~penta)의 다양성을 측정. **사람 글은 통사 구조가 풍부**하고, LLM은 흔한 구조를 반복한다.
 - **윤문에서의 활용**: → **카테고리 9(리듬 균일성)** 의 핵심 근거. 종결어미·문장 구조·문두가 단조롭게
   반복되면 AI 티다. 윤문은 의미를 바꾸지 않는 선에서 구조·종결을 변주해 다양성을 회복한다.
 
 ### 3) 쉼표 사용 패턴 (Comma Usage) ★ 가장 강력
+
 - 쉼표의 **빈도·상대 위치·쉼표 앞뒤 품사 조합 다양성**을 분석.
   (Comma Inclusion Rate, Average Comma Usage Rate, Relative Position of Comma, POS Diversity around comma)
 - 한국어는 본래 영어보다 쉼표를 **덜** 쓴다. 그런데 LLM 생성 한국어는 영어 영향으로 **쉼표를 과용**한다.
@@ -40,11 +43,11 @@
 
 ## 윤문 taxonomy 매핑 요약
 
-| KatFishNet 특징 | 윤문 카테고리 | 처리 |
-|---|---|---|
+| KatFishNet 특징                 | 윤문 카테고리        | 처리                           |
+| ------------------------------- | -------------------- | ------------------------------ |
 | 쉼표 과용(연결어미·접속부사 뒤) | 4 접속사·연결어 남발 | 불필요한 쉼표 제거 (심각도 강) |
-| POS n-gram 다양성 저하 | 9 리듬 균일성 | 종결·구조·문두 변주(의미 보존) |
-| 의존명사·보조용언 기계적 반복 | 6 형식명사·명사화 | 명사화 풀어 동사화 |
+| POS n-gram 다양성 저하          | 9 리듬 균일성        | 종결·구조·문두 변주(의미 보존) |
+| 의존명사·보조용언 기계적 반복   | 6 형식명사·명사화    | 명사화 풀어 동사화             |
 
 ## 주의 — 윤문은 "탐지 우회" 도구가 아니다
 
