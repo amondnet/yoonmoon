@@ -8,7 +8,9 @@
 > **From Intuition to Calibrated Judgment: A Rubric-Based Expert-Panel Study of Human Detection of
 > LLM-Generated Korean Text.** Shinwoo Park, Yo-Sub Han (Yonsei). arXiv:2601.19913 (2026, preprint).
 > https://arxiv.org/abs/2601.19913 · 루브릭·데이터 https://github.com/Shinwoo-Park/lread
-> KatFishNet(ACL 2025)과 동일 연구진. confidence: HIGH(서지·루브릭 원본 확인) / preprint 주의.
+> KatFishNet(ACL 2025)과 동일 연구진. confidence: HIGH — arXiv `2601.19913`(v1~v3)·GitHub
+> `Shinwoo-Park/lread` 실재 검증(2026-06). 제목·핵심 수치(정확도 0.60→0.90, κ −0.09→0.24→0.82)·
+> 루브릭 배점(100점=내용40·조직10·표현50)을 본문과 대조 확인. preprint 주의.
 
 ## 핵심 발견 — fluency trap (유창성 함정)
 
