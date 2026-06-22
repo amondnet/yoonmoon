@@ -1,0 +1,32 @@
+docs/research.md
+  s_3be06c0ae023fe::t_d690f2753ebea8 164
+skills/detect/references/xdac-research.md
+  s_3be06c0ae023fe::t_d690f2753ebea8 1-59
+.claude-plugin/plugin.json
+  s_3be06c0ae023fe::t_d690f2753ebea8 4
+skills/detect/references/lread-rubric.md
+  s_3be06c0ae023fe::t_d690f2753ebea8 1-50,52-67
+  s_3be06c0ae023fe::t_67e3d9c6a97b89 51
+skills/detect/SKILL.md
+  s_3be06c0ae023fe::t_d690f2753ebea8 1-144
+.claude-plugin/marketplace.json
+  s_3be06c0ae023fe::t_d690f2753ebea8 16
+README.md
+  s_3be06c0ae023fe::t_d690f2753ebea8 9,54,104,122
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "0593b88a61c513e8858c782194da1d2f99aa19f2",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
