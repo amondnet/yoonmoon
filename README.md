@@ -10,7 +10,8 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 
 - ✅ **내용 보존** — 윤문 시 고유명사·수치·인용·날짜·주장은 한 글자도 바꾸지 않는다
 - ✅ **10대 AI 티 분류** — 번역투부터 리듬 균일성까지 체계적으로 탐지·교정
-- ✅ **학술 근거** — 쉼표 과용·POS 다양성 등은 KatFishNet(ACL 2025) 연구로 뒷받침
+- ✅ **학술 근거** — KatFishNet·LREAD·XDAC 등 한국어 AI 텍스트 탐지 연구(ACL 2025·2026)로 뒷받침
+- ✅ **단문·SNS·댓글까지** — 문어체뿐 아니라 짧은 구어체 글도 별도 신호축(XDAC)으로 판별
 - ✅ **가벼운 단일 흐름** — 별도 에이전트 스폰 없이 빠르게. 장르·강도 조절 가능
 
 ## 설치
@@ -61,6 +62,9 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 **출력**: ① 한 줄 판정 `AI 가능성: 높음/중간/낮음 / 신뢰도: …` ② 근거 요약
 ③ 신호 표 ④ 의심 구간 하이라이트.
 
+**단문·댓글·SNS**도 판별한다 — 입력이 짧은 구어체면 반복문자·포맷팅 결핍, 격식·중립 과다 같은
+단문 전용 신호축([XDAC](https://aclanthology.org/2025.acl-long.1108/) 근거)을 자동 적용한다(문어체엔 미적용).
+
 > ⚠️ 탐지는 **확률적 추정**이다. 표절·부정행위 등 불이익 판정의 단독 근거로 쓰지 말 것.
 > 사람이 써도 번역투·쉼표 습관이 있어 위양성이 날 수 있다.
 
@@ -100,9 +104,11 @@ yunmoon/
 │   └── yunmoon-detect/      # 탐지(AI 작성 여부 진단) 스킬
 │       ├── SKILL.md         # 신호 스캔 → AI 가능성·신뢰도·근거 (taxonomy 공유)
 │       └── references/
-│           └── lread-rubric.md # 근거: 사람 판별 루브릭·fluency trap (LREAD, 2026)
+│           ├── lread-rubric.md  # 근거: 사람 판별 루브릭·fluency trap (LREAD, 2026)
+│           └── xdac-research.md # 근거: 단문/SNS·댓글 탐지 신호 (XDAC, ACL 2025)
 └── docs/
-    └── research.md          # 연구·참고 자료 큐레이션 모음 (검증된 출처 + 윤문 매핑)
+    ├── research.md          # 연구·참고 자료 큐레이션 모음 (검증된 출처 + 윤문 매핑)
+    └── papers/              # 1차 문헌 로컬 사본 (Git LFS) — LREAD 등
 ```
 
 ## 참고 / 영감
@@ -111,9 +117,11 @@ yunmoon/
 (humanize-korean, MIT)의 구조와 접근에서 영감을 받았다. 윤문의 AI 티 분류·윤문 룰·문서는
 일반 언어학·번역학 상식에 기반해 **독자적으로 새로 작성**했다.
 
-AI 티 탐지 기준은 한국어 LLM 텍스트 탐지 연구 **KatFishNet** (Park et al., ACL 2025,
+AI 티 탐지·교정 기준은 한국어 LLM 텍스트 탐지 연구 **KatFishNet** (Park et al., ACL 2025,
 [논문](https://aclanthology.org/2025.acl-long.1030/) · [코드](https://github.com/Shinwoo-Park/katfishnet))과
-한국 번역학·번역 보편소·post-editese 연구로 뒷받침된다. 카테고리별 매핑은
+한국 번역학·번역 보편소·post-editese 연구로 뒷받침된다. 탐지(yunmoon-detect) 스킬은 더해 사람의
+AI 판별 루브릭 **LREAD**([arXiv 2601.19913](https://arxiv.org/abs/2601.19913), 2026)와 단문/SNS·댓글 탐지
+연구 **XDAC**([ACL 2025](https://aclanthology.org/2025.acl-long.1108/))로 보강된다. 카테고리별 매핑은
 [`katfishnet-research.md`](skills/yunmoon/references/katfishnet-research.md) ·
 [`translationese-research.md`](skills/yunmoon/references/translationese-research.md)에 있고,
 탐지·스타일로메트리·규범·선행 도구를 아우르는 **연구·참고 자료 전체 모음**은
