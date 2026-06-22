@@ -1,0 +1,25 @@
+skills/yunmoon/references/translationese-research.md
+  s_3be06c0ae023fe::t_2f98f7d0e51753 353
+  s_3be06c0ae023fe::t_458d8d89d7bc46 372-374
+  s_3be06c0ae023fe::t_355121ca562438 121
+docs/research.md
+  s_3be06c0ae023fe::t_c917bb03acd76c 163
+skills/yunmoon/references/ai-tell-taxonomy.md
+  s_3be06c0ae023fe::t_4bcb1f0c8b40fa 149-151
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "39d1d02f08ec09843222f3e6ea418e1511a91fc8",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
