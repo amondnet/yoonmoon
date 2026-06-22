@@ -1,0 +1,35 @@
+.prettierignore
+  s_3be06c0ae023fe::t_95d71c4209b125 1-4
+skills/yunmoon/SKILL.md
+  s_3be06c0ae023fe::t_79fa3157ef4b8e 22,46,69-72,74
+  s_3be06c0ae023fe::t_51974c56db75e7 55,61,76,80,82,90,92,96
+skills/yunmoon-detect/SKILL.md
+  s_3be06c0ae023fe::t_79fa3157ef4b8e 19,32,43-44,63,66,71-75,84,86,93-101,104,114
+  s_3be06c0ae023fe::t_51974c56db75e7 38,47-48,52,57,68,77,88,110,116,119
+eslint.config.mjs
+  s_3be06c0ae023fe::t_8d316912970ead 5-6
+  s_3be06c0ae023fe::t_8bdfdf6eb813ff 3-4
+.prettierrc.json
+  s_3be06c0ae023fe::t_aff6a5846ae6fa 1-4
+package.json
+  s_3be06c0ae023fe::t_9fb2e048eb2c74 21
+  s_3be06c0ae023fe::t_d174009584ddbf 14-16
+skills/yunmoon/references/examples.md
+  s_3be06c0ae023fe::t_51974c56db75e7 84
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "4a545eb5c6a3b0c48f7411f56818ef65e14f1779",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
