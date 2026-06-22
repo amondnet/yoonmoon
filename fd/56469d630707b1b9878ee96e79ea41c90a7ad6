@@ -1,0 +1,34 @@
+skills/yunmoon-detect/references/xdac-research.md
+  s_3be06c0ae023fe::t_49e89964c8c5ae 1-21,32-59
+  s_3be06c0ae023fe::t_5a8ca4d82403c3 22-31
+skills/yunmoon/references/translationese-research.md
+  s_3be06c0ae023fe::t_5a8ca4d82403c3 344-352
+  s_3be06c0ae023fe::t_70fbe246a37f8f 334
+  s_3be06c0ae023fe::t_4f142d491747e6 108-139
+  s_3be06c0ae023fe::t_d1810d6437f002 353
+  s_3be06c0ae023fe::t_30d6ffa89d60b8 371-373
+docs/research.md
+  s_3be06c0ae023fe::t_596bb40692b632 85-88,100-102
+  s_3be06c0ae023fe::t_5a8ca4d82403c3 34,89-99,162
+  s_3be06c0ae023fe::t_d57b2990cebaa3 161
+  s_3be06c0ae023fe::t_42f93f62984b7a 166-167
+skills/yunmoon/references/ai-tell-taxonomy.md
+  s_3be06c0ae023fe::t_51d49085155835 146-151
+  s_3be06c0ae023fe::t_5465f387dcb837 49-52
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.9",
+  "base_commit_sha": "fd56469d630707b1b9878ee96e79ea41c90a7ad6",
+  "prompts": {},
+  "sessions": {
+    "s_3be06c0ae023fe": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "acdd314e-adff-49ad-aaea-d592f2dcd89f",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
