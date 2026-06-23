@@ -5,7 +5,7 @@
 ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상투적 표현, 불릿·이모지 과다 같은
 "AI 티"가 묻어난다. 이 플러그인은 두 가지 스킬을 묶는다:
 
-- **`yunmoon`** (윤문) — 글의 **내용은 그대로 둔 채** 문체·리듬·표현만 자연스럽게 고쳐 사람이 쓴 듯한 한국어로 만든다.
+- **`humanize`** (윤문) — 글의 **내용은 그대로 둔 채** 문체·리듬·표현만 자연스럽게 고쳐 사람이 쓴 듯한 한국어로 만든다.
 - **`detect`** (탐지) — 글을 고치지 않고, **AI가 썼는지**를 신호 기반으로 진단해 'AI 가능성·신뢰도·근거'를 보고한다.
 
 - ✅ **내용 보존** — 윤문 시 고유명사·수치·인용·날짜·주장은 한 글자도 바꾸지 않는다
@@ -32,7 +32,7 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 
 두 스킬 모두 description으로 **자동 트리거**된다. 한글 텍스트와 함께 말하면 된다.
 
-### 윤문 (yunmoon) — 사람처럼 다듬기
+### 윤문 (humanize) — 사람처럼 다듬기
 
 ```text
 이 글 AI 티 좀 없애줘:
@@ -83,7 +83,7 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 | 9   | 리듬 균일성         | 종결어미·문장 길이·문두 단조                       |
 | 10  | 영어 인용 과다      | 불필요한 영어 병기                                 |
 
-자세한 정의·예시·심각도는 [`skills/yunmoon/references/ai-tell-taxonomy.md`](skills/yunmoon/references/ai-tell-taxonomy.md) 참고.
+자세한 정의·예시·심각도는 [`skills/humanize/references/ai-tell-taxonomy.md`](skills/humanize/references/ai-tell-taxonomy.md) 참고.
 
 ## 구조
 
@@ -93,7 +93,7 @@ yunmoon/
 │   ├── plugin.json          # 플러그인 매니페스트
 │   └── marketplace.json     # 마켓플레이스 등록
 ├── skills/
-│   ├── yunmoon/             # 윤문(고쳐쓰기) 스킬
+│   ├── humanize/            # 윤문(고쳐쓰기) 스킬
 │   │   ├── SKILL.md         # 오케스트레이터 (탐지·윤문·검증)
 │   │   └── references/
 │   │       ├── ai-tell-taxonomy.md       # 10대 카테고리 분류 (두 스킬 공유)
@@ -122,8 +122,8 @@ AI 티 탐지·교정 기준은 한국어 LLM 텍스트 탐지 연구 **KatFishN
 한국 번역학·번역 보편소·post-editese 연구로 뒷받침된다. 탐지(detect) 스킬은 더해 사람의
 AI 판별 루브릭 **LREAD**([arXiv 2601.19913](https://arxiv.org/abs/2601.19913), 2026)와 단문/SNS·댓글 탐지
 연구 **XDAC**([ACL 2025](https://aclanthology.org/2025.acl-long.1108/))로 보강된다. 카테고리별 매핑은
-[`katfishnet-research.md`](skills/yunmoon/references/katfishnet-research.md) ·
-[`translationese-research.md`](skills/yunmoon/references/translationese-research.md)에 있고,
+[`katfishnet-research.md`](skills/humanize/references/katfishnet-research.md) ·
+[`translationese-research.md`](skills/humanize/references/translationese-research.md)에 있고,
 탐지·스타일로메트리·규범·선행 도구를 아우르는 **연구·참고 자료 전체 모음**은
 [`docs/research.md`](docs/research.md)에 정리했다.
 

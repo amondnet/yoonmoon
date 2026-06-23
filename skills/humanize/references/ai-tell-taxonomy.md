@@ -1,4 +1,4 @@
-# 윤문 AI 티 분류 (yunmoon AI-tell taxonomy)
+# 윤문 AI 티 분류 (humanize AI-tell taxonomy)
 
 AI(ChatGPT·Claude·Gemini 등)가 쓴 한글 텍스트에서 반복적으로 나타나는 "AI 티"를 10대 카테고리로
 정리한 탐지 기준이다. 각 항목은 **정의 · 패턴/예시 · 심각도 · 보존 주의**로 구성된다.
