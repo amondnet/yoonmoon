@@ -1,5 +1,5 @@
 {
-  "name": "yunmoon",
+  "name": "yoonmoon",
   "version": "0.1.0",
   "description": "한글 AI 글 윤문·탐지 도구 — AI가 쓴 한글 텍스트를 사람이 쓴 글처럼 윤문하거나(humanize), AI가 썼는지 판별(detect)한다. 번역투·상투어·쉼표 과용 등 10대 AI 티 패턴 기반. 윤문 시 내용은 보존하고 문체·리듬만 다듬는다.",
   "author": {
@@ -7,8 +7,8 @@
     "email": "minsu.lee@dietfriends.kr",
     "url": "https://github.com/amondnet"
   },
-  "homepage": "https://github.com/amondnet/yunmoon",
-  "repository": "https://github.com/amondnet/yunmoon",
+  "homepage": "https://github.com/amondnet/yoonmoon",
+  "repository": "https://github.com/amondnet/yoonmoon",
   "license": "MIT",
   "keywords": ["korean", "humanize", "ai-detector", "translationese", "윤문", "번역투"],
   "skills": ["./skills/"]

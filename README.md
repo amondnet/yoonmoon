@@ -1,4 +1,4 @@
-# 윤문 (yunmoon)
+# 윤문 (yoonmoon)
 
 > 한글 AI 글을 **사람처럼 윤문**하고, **AI가 썼는지 판별**하는 Claude Code 스킬/플러그인
 
@@ -17,15 +17,15 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 ## 설치
 
 ```text
-/plugin marketplace add amondnet/yunmoon
-/plugin install yunmoon@yunmoon
+/plugin marketplace add amondnet/yoonmoon
+/plugin install yoonmoon@yoonmoon
 ```
 
 로컬에서 바로 시험하려면 저장소 경로를 마켓플레이스로 추가한다:
 
 ```text
 /plugin marketplace add /Volumes/Dev/IdeaProjects/yunmun
-/plugin install yunmoon@yunmoon
+/plugin install yoonmoon@yoonmoon
 ```
 
 ## 사용법
@@ -88,7 +88,7 @@ ChatGPT·Claude·Gemini가 쓴 한국어 글에는 번역투, 피동 남용, 상
 ## 구조
 
 ```text
-yunmoon/
+yoonmoon/
 ├── .claude-plugin/
 │   ├── plugin.json          # 플러그인 매니페스트
 │   └── marketplace.json     # 마켓플레이스 등록
