@@ -1,0 +1,21 @@
+skills/translate-polish/references/polish-guide.md
+  s_a78f577ae5495a::t_7aad2c54533b65 28
+skills/proofread/references/proofreading-rules.md
+  s_a78f577ae5495a::t_0752d8cef87700 68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "a789376b912e2938b05ee0e2a6b4f9fcfa7db529",
+  "prompts": {},
+  "sessions": {
+    "s_a78f577ae5495a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03e0c78d-9adb-473d-a136-153af786617a",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
