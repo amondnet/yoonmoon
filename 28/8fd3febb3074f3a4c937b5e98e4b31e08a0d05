@@ -1,0 +1,26 @@
+skills/humanize/SKILL.md
+  s_a78f577ae5495a::t_308a27974da382 21
+docs/research.md
+  s_a78f577ae5495a::t_d672b620e8035d 14
+  s_a78f577ae5495a::t_f14108d67c60e5 77
+skills/humanize/references/ai-tell-taxonomy.md
+  s_a78f577ae5495a::t_6f8cc41bb458be 72
+  s_a78f577ae5495a::t_662e0ff77a4045 52
+  s_a78f577ae5495a::t_a045a61c618b3a 152
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "288fd3febb3074f3a4c937b5e98e4b31e08a0d05",
+  "prompts": {},
+  "sessions": {
+    "s_a78f577ae5495a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03e0c78d-9adb-473d-a136-153af786617a",
+        "model": "unknown"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
