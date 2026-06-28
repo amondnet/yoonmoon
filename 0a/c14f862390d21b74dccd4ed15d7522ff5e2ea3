@@ -1,0 +1,31 @@
+.claude/agent-memory/review-review-documentation-analyzer/project_yoonmoon.md
+  s_a78f577ae5495a::t_1b721a4755c1aa 13
+  s_a78f577ae5495a::t_207e79289c778b 3,8,10,12,14,16-18
+  s_a78f577ae5495a::t_c7c302338310ab 1-2,4-7,9,11
+  s_a78f577ae5495a::t_c64491f6d50efb 15,19
+.claude/agent-memory/review-review-code-reviewer/MEMORY.md
+  s_a78f577ae5495a::t_f9791f16221ac3 1-2
+.claude/agent-memory/review-review-documentation-analyzer/MEMORY.md
+  s_a78f577ae5495a::t_d78f2daf25b830 1
+.claude/agent-memory/review-review-code-reviewer/project-yoonmoon.md
+  s_a78f577ae5495a::t_7f0f6a3da61a3d 1-14
+.claude/agent-memory/review-review-code-reviewer/convention-skill-tags.md
+  s_a78f577ae5495a::t_3f22476f379fc3 1-11,13
+  s_a78f577ae5495a::t_7bbf195f95df8c 12,14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "0ac14f862390d21b74dccd4ed15d7522ff5e2ea3",
+  "prompts": {},
+  "sessions": {
+    "s_a78f577ae5495a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "03e0c78d-9adb-473d-a136-153af786617a",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
