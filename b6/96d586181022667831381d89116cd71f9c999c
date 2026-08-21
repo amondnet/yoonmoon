@@ -1,0 +1,21 @@
+.claude/agent-memory/github-pr-manager/MEMORY.md
+  s_40e56057d04684::t_b2283e9d9e04e2 1
+.claude/agent-memory/github-pr-manager/pr-conventions-yoonmoon.md
+  s_40e56057d04684::t_b2283e9d9e04e2 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "b696d586181022667831381d89116cd71f9c999c",
+  "prompts": {},
+  "sessions": {
+    "s_40e56057d04684": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e77d5e99-ba4a-491d-bcf9-c9866e930575",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
