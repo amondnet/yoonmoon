@@ -1,0 +1,24 @@
+skills/humanize/SKILL.md
+  s_40e56057d04684::t_d8c79cb88814f6 46
+skills/humanize/references/ai-tell-taxonomy.md
+  s_40e56057d04684::t_d8c79cb88814f6 244-250
+  s_40e56057d04684::t_1e20aaeee04aeb 195-199,205-206,231-238
+skills/humanize/references/rewriting-guide.md
+  s_40e56057d04684::t_4edb533d451f13 40,54-55,69-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "41f2a76998748e995345f4f486bed4c891ed1fc9",
+  "prompts": {},
+  "sessions": {
+    "s_40e56057d04684": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e77d5e99-ba4a-491d-bcf9-c9866e930575",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
