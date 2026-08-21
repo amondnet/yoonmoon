@@ -1,0 +1,1 @@
+- [PR conventions: amondnet/yoonmoon](pr-conventions-yoonmoon.md) — 개인 저장소: ready PR 기본, 템플릿 없음, `Closes #N` 관례 없음, 한국어 본문
