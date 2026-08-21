@@ -1,0 +1,40 @@
+skills/polish-all/SKILL.md
+  s_40e56057d04684::t_8a777b728792b9 56,68
+.claude-plugin/plugin.json
+  s_40e56057d04684::t_7a23c07ea489d2 4
+skills/detect/SKILL.md
+  s_40e56057d04684::t_8a777b728792b9 17,32,39-40,119
+.claude-plugin/marketplace.json
+  s_40e56057d04684::t_7a23c07ea489d2 16
+skills/humanize/references/rewriting-guide.md
+  s_40e56057d04684::t_7eb4d6d5e0ab78 13-14,38-40,53-54,56,58,66-67,77-78
+skills/humanize/references/ai-tell-taxonomy.md
+  s_40e56057d04684::t_2b1cca9276551a 3,29-30,224-229,238-249,263-275
+  s_40e56057d04684::t_25432c8dc506bf 5
+  s_40e56057d04684::t_9930a28d8e9398 230-237
+skills/polish-all/references/pipeline-guide.md
+  s_40e56057d04684::t_8a777b728792b9 52,70-73
+  s_40e56057d04684::t_9930a28d8e9398 37-39,87,89
+skills/humanize/SKILL.md
+  s_40e56057d04684::t_35df476af67a78 3,17-18,34,39,46-47,51-54,67,82
+README.md
+  s_40e56057d04684::t_9930a28d8e9398 143-154
+  s_40e56057d04684::t_7a23c07ea489d2 21-22,78,141,155-158,176,210-213
+  s_40e56057d04684::t_98615c7aec1444 142,214
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "6bc602ff7f1238910fa2bff2dde8286965a8d32c",
+  "prompts": {},
+  "sessions": {
+    "s_40e56057d04684": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e77d5e99-ba4a-491d-bcf9-c9866e930575",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
