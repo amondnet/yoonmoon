@@ -1,0 +1,24 @@
+skills/polish-all/SKILL.md
+  s_50095dc9c0a4b8::t_561dd0997edd73 39
+  s_50095dc9c0a4b8::t_e43167a7326040 40
+README.md
+  s_50095dc9c0a4b8::t_64488b1ff47af9 89-90
+skills/detect/SKILL.md
+  s_50095dc9c0a4b8::t_8de5895cbacb0c 111-113
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "3416ff4cd1576956f9963f3ef7f1ab9bc66b4fc6",
+  "prompts": {},
+  "sessions": {
+    "s_50095dc9c0a4b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55fc6bff-8317-4e56-b10b-8956d3f38f64",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
