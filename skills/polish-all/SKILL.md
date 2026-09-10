@@ -36,7 +36,8 @@ description: 한글 글 한 편을 진단부터 다듬기까지 전과정으로 
 </phase>
 
 <phase n="1" name="진단·라우팅 (detect)">
-`yoonmoon:detect` 스킬을 호출해 입력을 진단한다. **AI 글 여부·번역문 여부·장르**를 판정하고,
+`yoonmoon:detect` 스킬을 호출해 입력을 진단하고, 그 한 줄 판정에서 **AI 가능성 · 번역문 가능성 · 장르**를
+읽는다(세 값은 detect의 `<outputFormat>` 1번이 보장한다).
 `pipeline-guide.md`의 **라우팅 매트릭스**로 켤 단계를 정한다(proofread 항상, restyle은 목표 지정 시).
 판정 결과와 켜진 단계를 기록한다.
 </phase>
