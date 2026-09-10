@@ -1,0 +1,29 @@
+skills/humanize/references/examples.md
+  s_50095dc9c0a4b8::t_83f379335f7dc7 89,92-93,95
+  s_50095dc9c0a4b8::t_49390c0e873980 94
+skills/translate-polish/references/polish-guide.md
+  s_50095dc9c0a4b8::t_83f379335f7dc7 62
+skills/polish-all/SKILL.md
+  s_50095dc9c0a4b8::t_49390c0e873980 42-44
+skills/humanize/references/rewriting-guide.md
+  s_50095dc9c0a4b8::t_83f379335f7dc7 74
+skills/detect/SKILL.md
+  s_50095dc9c0a4b8::t_83f379335f7dc7 96-98,107
+  s_50095dc9c0a4b8::t_49390c0e873980 108-112
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "2d5290a665e460c1c95e7afb8a21607956fe6db7",
+  "prompts": {},
+  "sessions": {
+    "s_50095dc9c0a4b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55fc6bff-8317-4e56-b10b-8956d3f38f64",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
