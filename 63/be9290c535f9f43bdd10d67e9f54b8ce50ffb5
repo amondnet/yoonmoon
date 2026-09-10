@@ -1,0 +1,21 @@
+skills/humanize/references/examples.md
+  s_50095dc9c0a4b8::t_baf35183354a72 5
+  s_50095dc9c0a4b8::t_561dd0997edd73 6,82-98,104
+  s_50095dc9c0a4b8::t_59a8bc57508cf9 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "63be9290c535f9f43bdd10d67e9f54b8ce50ffb5",
+  "prompts": {},
+  "sessions": {
+    "s_50095dc9c0a4b8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55fc6bff-8317-4e56-b10b-8956d3f38f64",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Minsu Lee <amond@amond.net>"
+    }
+  }
+}
