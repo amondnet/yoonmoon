@@ -48,10 +48,6 @@ description: 한국어 글의 맞춤법·띄어쓰기·표준어·외래어 표�
 ③ 과교정 없음 ④ 문서 내 표기 일관성. 위반 시 해당 교정을 **롤백**한다.
 </phase>
 
-<phase n="4" name="결과 반환">
-`<outputFormat>`에 정의한 형식대로 반환한다.
-</phase>
-
 </workflow>
 
 <outputFormat>
